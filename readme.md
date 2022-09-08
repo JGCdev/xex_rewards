@@ -1,4 +1,4 @@
-# xex_slots
+# xex_rewards
 FiveM Rewards Mod for ESX
 
 ## Requirements
