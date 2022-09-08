@@ -1,0 +1,1 @@
+ALTER TABLE users ADD COLUMN rewards INT DEFAULT 1;

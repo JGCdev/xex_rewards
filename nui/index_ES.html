@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Xex Rewards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="ui.js"></script>
+</head>
+
+<body>
+
+  <div id="card-rewards" class="at-reward-card">
+    <div class="at-reward-card__header">
+      <svg class="at-reward-card__thumbnail" id="placeholder-reward" width="140" height="140" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <title>PC Rewards</title>
+        <g fill="none" fill-rule="evenodd">
+          <path d="M256 475L9 188 116 43l140-15 140 15 107 145z" fill="#FFAE00"/>
+          <path d="M256 475L9 188h494z" fill="#CCC"/>
+          <path d="M256 475L109 188h294z" fill="#EEE"/>
+          <path d="M256 28L109 188h294z" fill="#FFF"/>
+          <path d="M116 43l-55 73-52 72h101zM396 43l55 73 52 72H402z" fill="#E7E7E7"/>
+          <path d="M116 43l-7 145L256 28zM396 43l7 145L256 28z" fill="#F3F3F3"/>
+        </g>
+      </svg>
+      <img id="item-img" class="rewards" src="#">
+    </div>
+    <div class="at-reward-card__content" id="placeholder-content">
+      <h2>¡Felicidades!</h2>
+      <p>Tienes un regalo esperando. Total: <span id="card-regalos-total">1</span></p>
+    </div>
+    <div class="at-reward-card__content" id="car">
+      <h2>¡Has ganado un coche!</h2>
+      <p>Has tenido buena suerte, disfruta de tu nuevo vehículo!</p>
+    </div>
+    <div class="at-reward-card__content" id="money">
+      <h2>¡Has ganado 100.000$!</h2>
+      <p>Ponlos a salvo antes que alguien intente robártelos!</p>
+    </div>
+    <div class="at-reward-card__content" id="black_money">
+      <h2>¡Has ganado 150.000$ de dinero negro!</h2>
+      <p>Podrás intercambiarlo en algún lugar de la ciudad...</p>
+    </div>
+    <div class="at-reward-card__footer" id="placeholder-buttons">
+      <button id="nope" class="at-reward-card__button">No, Gracias</button>
+      <button id="claim" class="at-reward-card__button">Reclamar Regalo</button>
+    </div>
+    <div class="at-reward-card__footer" id="final">
+      <button id="fin" class="at-reward-card__button">OK</button>
+    </div>
+  </div>
+
+  <script  src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+.button > a:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-content: center;
+  font-size: 31px;
+  position: absolute;
+  left: 47px;
+  top: 26px;
+}
+#card-rewards{
+  display: none;
+}
+.container .button:hover {
+  background-color: rgba(255,41,72,0.99);
+}
+.at-reward-card {
+  z-index: 999999;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  width: 500px;
+  height: 360px;
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-family: "Open Sans", sans-serif;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+}
+.at-reward-card__header {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255,41,72,0.82) 30%, rgba(255,0,211,0.72) 100%) !important;
+  height: 140px;
+  margin: 0 0 60px;
+}
+.at-reward-card__thumbnail {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-50%);
+}
+.at-reward-card__content {
+  flex-grow: 1;
+  text-align: center;
+}
+.at-reward-card__content h2 {
+  margin: 0 0 10px;
+  padding: 0;
+  color: rgba(255, 41, 72, 0.82);
+  font-size: 20px;
+}
+.at-reward-card__content p {
+  margin: 0;
+  padding: 0;
+  color: #444444;
+  font-size: 16px;
+}
+.at-reward-card__footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 60px;
+}
+.at-reward-card__button {
+  outline: none;
+  display: block;
+  background: #FAFAFA;
+  width: 100%;
+  border: 0;
+  margin: 0 1px;
+  font-size: 18px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.at-reward-card__button:hover {
+  background: #F3F3F3;
+}
+.at-reward-card__button:first-child {
+  margin-left: 0;
+  color: #CCCCCC;
+}
+.at-reward-card__button:last-child {
+  margin-right: 0;
+  color:  rgba(255, 41, 72, 0.52);
+  font-weight: 600;
+}
+.rewards{
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  text-align:center;
+}
+#item-img,#final, #car, #black_money, #money{
+  display:none;
+}
