@@ -24,6 +24,8 @@ git clone https://github.com/JGCdev/xex_rewards
 start xex_rewards
 ```
 
+- Import sql.sql in your DB
+
 # Legal
 ### License
 xex_rewards - FiveM Rewards Mod
