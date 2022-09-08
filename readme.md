@@ -21,7 +21,7 @@ git clone https://github.com/JGCdev/xex_rewards
 - Add this in your `server.cfg`:
 
 ```
-start xex_slots
+start xex_rewards
 ```
 
 # Legal
