@@ -1,4 +1,7 @@
 # xex_rewards
+
+> More XeX scripts on [xexstudio.com](https://xexstudio.com/scripts?utm_source=github&utm_campaign=rewards) · Support: [Discord](https://discord.gg/9yY3Jxnhh8)
+
 FiveM Rewards Mod for ESX
 
 ## Requirements
